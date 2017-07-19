@@ -1,0 +1,24 @@
+.schedule {
+  margin-top: 80px;
+  @media(min-width: 768px){
+   margin: 0 auto;
+    width: 88%;
+  }
+}
+
+table {
+  width: 95%; 
+  margin: 27px -1px;
+}
+
+th {
+    padding: 6px 5px;
+    text-align: left;
+    color: #6d6d6d;
+    border-radius: 10px;
+      width: 35%;
+}
+
+tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 255, 0.06);
+}

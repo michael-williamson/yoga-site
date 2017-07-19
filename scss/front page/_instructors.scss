@@ -1,0 +1,66 @@
+.photo-container {
+    margin: 96px 0;
+}
+
+.content {
+  perspective: 3000px;
+  text-align: center; 
+  h1{
+    @media(min-width: 768px){
+      margin-top: 68px;
+  }
+  }
+}
+
+img {
+  max-width: 100%; 
+  z-index: 100;
+  position: relative; 
+  @media(min-width: 768px){
+    width: 100%; 
+}
+}
+
+.photo-desc {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  max-width: 100%; 
+  @media(min-width:768px){
+    font-size: 1.8em;
+}
+  @media(min-width:1024px){
+    font-size: 1.6em; 
+  }
+}
+
+.photo {
+  transition: transform 1s ease-out; 
+  transform-style: preserve-3d; 
+  position: relative; 
+  @media(min-width: 768px){
+  width: 68%; 
+  margin: 0 auto;
+}
+  @media(min-width:1024px){
+    width: 36%;
+  }
+
+}
+
+.photo:hover {
+  transform: rotateY(-180deg);  
+}
+
+.side-a,
+.side-b{
+  backface-visibility: hidden; 
+}
+
+.side-b {
+  transform: rotateY(180deg); 
+}
+
+.side-b h4 {
+  margin: 0 0 10px 0; 
+}

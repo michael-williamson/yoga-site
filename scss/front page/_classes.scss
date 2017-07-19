@@ -1,0 +1,28 @@
+.classes-section {
+  margin-top: 63px; 
+  @media(min-width:768px){
+  line-height: 41px;
+  width: 88%;
+  margin: 0 auto;
+  
+  h1{
+    @media(min-width:768px){
+        margin: 101px 0 32px;
+  }
+  }
+}
+
+
+h4 {
+    color: #aa55f6;
+    background-color: #dbffe4;
+    font-family:'Handlee', cursive ;
+    padding: 7px 9px;
+}
+
+p {
+  padding: 0 11px;
+  font-family: 'Amiko', cursive; 
+}
+  
+}

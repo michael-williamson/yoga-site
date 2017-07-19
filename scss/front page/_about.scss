@@ -1,0 +1,14 @@
+.about-para {
+  background-color: rgba(59, 52, 191, 0.09);
+  padding: 16px 19px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 7px;
+  line-height: 28px;
+  color: rgb(0, 104, 236);
+  box-shadow: inset 0px 0px 62px -21px rgba(255, 0, 224, 0.28);
+  @media(min-width:768px){
+    line-height: 48px;
+    font-size: 1.5em;
+}
+}
